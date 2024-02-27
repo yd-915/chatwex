@@ -8,12 +8,18 @@ import { getFunctions } from 'firebase/functions'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.FIREBASE_APP_ID,
+  apiKey: "AIzaSyBe3324xn6D2mG25WXbshJeHynbS1Q3aBY",
+
+  authDomain: "baro-6p3kmc.firebaseapp.com",
+
+  projectId: "baro-6p3kmc",
+
+  storageBucket: "baro-6p3kmc.appspot.com",
+
+  messagingSenderId: "301982493416",
+
+  appId: "1:301982493416:web:25dc2635a965b5bf9a375d"
+
 }
 
 // Initialize Firebase
